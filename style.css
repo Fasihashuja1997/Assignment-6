@@ -1,0 +1,392 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: rgb(0, 0, 0, 0.8);
+    backdrop-filter: blur(2rem);
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile{
+    display: none;
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    color:#ffffff;
+    padding:0 1rem;
+    transition: opacity 0.5s;
+}
+
+.nav-link:hover{
+    opacity: 0.7;
+}
+
+.nav-link-apple{
+    width: 1.6rem;
+    background: url("images/apple-icon.jpeg.jpg") center no-repeat;
+    height: 4.4rem;
+}
+
+.nav-link-search{
+    width: 1.6rem;
+    background: url("images/search\ icon.png") center no-repeat;
+    height: 4.4rem;
+}
+
+.nav-link-bag{
+    width: 1.4rem;
+    background: url("images/bag\ icon.png") center no-repeat;
+    height: 4.4rem;
+}
+
+.iPhone-12{
+    margin-top: 4.4rem;
+    background: url("images/iphone12.jpg");
+}
+
+.hero{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top:  0.6rem solid #f5eeee;
+    border-bottom:  0.6rem solid #f0e9e9;
+}
+
+.iPhone-12{
+    border-top: none;
+}
+
+.title{
+    color:#0a0a0a;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -0.005rem;
+}
+.title-sub-heading{
+    font-size: 2.65rem;
+    font-weight: 400;
+    letter-spacing: 0.008rem;
+    margin-top: 0.6rem;
+}
+.title-price{
+    font-size: 1.7rem;
+    color: #181717;
+    margin-top: 0.68rem;
+}
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+   
+}
+
+.cta-link{
+    color: #0070c9;
+    font-size: 2.1rem;
+    display: inline-block;
+    text-align: center;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover{
+    border-bottom: 2px solid #0070c9;
+}
+
+.iPhone-12-pro{
+    background:url("images/iphonee12.jpg");
+}
+.title-red{
+    color:rgb(238, 231, 231);
+}
+.cta-link-darker{
+    color:#0070c9;
+}
+.cta-link-darker:hover{
+    border-bottom-color: #0070c9;
+}
+.title-pro{
+    font-size: 1.7rem;
+    color: #f0e7e7;
+    margin-top: 0.68rem;
+}
+  
+.apple-card{
+    background: url("images/hero_apple_card__bt4lpouoeyoi_medium.jpg") center no-repeat;
+    
+  
+    
+
+}
+.title-pink{
+    color:black;
+}
+.cta-link-pinkish{
+    color:#0070c9;
+    text-align: center;
+}
+.cta-link-pinkish:hover{
+    border-bottom-color: #0070c9;
+}
+
+.title-heading-card{
+    height: 6rem;
+    background: url("images/download\ \(4\).jpg") center no-repeat;
+    background-size: auto 7.8rem;
+    margin-top: -1rem;
+    font-size: 1.7rem;
+}
+.watch{
+    background: url("images/watch_small.jpg");
+  
+
+}
+.title-heading-watch{
+    height: 7.8rem;
+    background: url("images/logo_watch_large.png") center no-repeat;
+    background-size: auto 7,8rem;
+    margin-top: -1rem;
+    font-size: 1.7rem;
+}
+.title-dark{color: #0a0a0a;
+}
+.wrist{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top:  0.6rem solid #ffffff;
+    border-bottom:  0.6rem solid #ffffff;
+   
+}
+
+
+.lmn{
+    background-color: #0070c9;
+    color: #fcf5f5;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 45px;
+    height: 5rem;
+}
+.rmo{
+    color: #eef0f1 ;
+}
+.rmo:hover{
+    border-bottom-color: #ebf4fc;
+}
+.air-pad{
+    background:url("images/air.jpg") center no-repeat;
+}
+.title-light{
+    color:black;
+}
+.cta-link-lighter{
+    color:#0070c9;
+}
+.cta-link-lighter:hover{
+    border-bottom-color: #0070c9;
+}
+.mac-book{
+    background:url("images/macbook\ air.jpg") center no-repeat;
+}
+.title-blue{
+    color:rgb(240, 227, 227);
+}
+.cta-link-bluish{
+    color:#0070c9;
+}
+.cta-link-bluish:hover{
+    border-bottom-color: #0070c9;
+}
+.fit-ness{
+    background: url("images/apple\ fitness.jpg") center no-repeat;
+    
+
+}
+.title-white{
+    color:black;
+}
+.cta-link-whitish{
+    color:#0070c9;
+}
+.cta-link-whitish:hover{
+    border-bottom-color: #0070c9;
+}
+.title-heading-fitness{
+    height: 4rem;
+    background: url("images/logo.png") center no-repeat;
+    background-size: auto 7.1rem;
+    margin-top:-1rem;
+    font-size: 1rem;
+}
+.music{
+    background: url("images/promo_tile_whm__dl74ww4vl2ye_medium.jpg") center no-repeat;
+  
+    
+
+}
+.title-black{
+    color:black;
+}
+.cta-link-blackish{
+    color:#0070c9;
+}
+.cta-link-blackish:hover{
+    border-bottom-color: #0070c9;
+}
+
+.title-heading-music{
+    height: 7.8rem;
+    background: url("images/music\ logo.jpg") center no-repeat;
+    background-size: auto 7,8rem;
+    margin-top: -1rem;
+    font-size: 1.7rem;
+   
+}
+.high{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top:  0.6rem solid #ffffff;
+    border-bottom:  0.6rem solid #ffffff;
+}
+
+.TV{
+    background: url("images/promo_tile__ivhgndrnkuye_medium.jpg") center no-repeat;
+    
+  
+    
+
+}
+.title-yellow{
+    color:rgb(250, 237, 237);
+}
+.cta-link-yellowish{
+    color:#0070c9;
+}
+.cta-link-yellowish:hover{
+    border-bottom-color: #0070c9;
+}
+.title-heading-tv{
+    height: 7.8rem;
+    background: url("images/download\ \(7\).jpg") center no-repeat;
+    background-size: auto 7,8rem;
+    margin-top: 5rem;
+    font-size: 1.7rem;
+    
+   
+}
+.apple-card{
+    background: url("images/hero_apple_card__bt4lpouoeyoi_medium.jpg") center no-repeat;
+    
+  
+    
+
+}
+.title-pink{
+    color:black;
+}
+.cta-link-pinkish{
+    color:#0070c9;
+}
+.cta-link-pinkish:hover{
+    border-bottom-color: #0070c9;
+}
+
+.title-heading-card{
+    height: 6rem;
+    background: url("images/download\ \(4\).jpg") center no-repeat;
+    background-size: auto 7.8rem;
+    margin-top: -1rem;
+    font-size: 1rem;
+}
+.dsc{
+    margin-top: 7.8rem;
+    font-size: 1.7rem;
+}
+.iphone-table{
+    font-size: 1.7rem;
+    margin-top: 7.8rem;
+    text-align: center;
+ /* border-spacing: 10px; */
+}
+.shop:hover{
+   
+        border-bottom-color: #0b0c0c;
+    }
+.shop{
+    color: black;
+    
+}
+
+    
+   
+
+.airprods{
+    background: url("images/air\ pro\ image.jpg") center no-repeat;
+}
+.title-grey{
+    color:black;
+}
+.cta-link-greyish{
+    color:#0070c9;
+}
+.cta-link-greyish:hover{
+    border-bottom-color: #0070c9;
+}
+
+.title-heading-airpods{
+    height: 7.8rem;
+    background: url("images/air\ prod\ logo.png") center no-repeat;
+    background-size: auto 7,8rem;
+    margin-top: 7.6rem;
+    font-size: 1.7rem;
+   
+}
+.end{
+    font-size: 1.7rem;
+    margin-top: 7.8rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
